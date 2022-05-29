@@ -70,11 +70,12 @@ header .profile-image {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  border: 3px solid white;
+  border: 2px solid white;
   transition: all .5s;
 }
 header .profile-image:hover {
   transform: scale(1.2) rotate(5deg);
+  border-color: #ff9904;
 }
 .tag {
   background-color: #efefef;
